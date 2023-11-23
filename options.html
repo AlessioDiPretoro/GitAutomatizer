@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Options</h1>
+    <h2>You can select one of the following action to automize in opened browser tab</h2>
+    <form id="options" style="text-align: center">
+      <div>
+        <label class="container"
+          >1 - Make it private
+          <input type="radio" name="radio" value="1" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div>
+        <label class="container"
+          >2 - Delete
+          <input type="radio" name="radio" value="2" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <!-- <label class="container"
+      >Make it public
+      <input type="radio" name="radio" />
+      <span class="checkmark"></span>
+    </label> -->
+      <button>Chose</button>
+    </form>
+    <div id="message"></div>
+    <div>
+      <p>To clear the saved option:</p>
+      <button id="clearBtn">Clear</button>
+    </div>
+
+    <footer>
+      <hr />
+      <p>You can activate the plugin by pressing Alt+ Shift + G.</p>
+      <p>Costumize the keyboard shortcut on chrome://extensions/shortcuts</p>
+      <p>
+        This is a plugin by <a href="https://github.com/AlessioDiPretoro">Alessio Di Pretoro</a>
+      </p>
+    </footer>
+    <script src="web.js"></script>
+    <script src="option.js"></script>
+  </body>
+</html>

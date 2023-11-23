@@ -1,0 +1,42 @@
+a:visited,
+a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+footer {
+  font-size: 0.85em;
+}
+
+.deleteThis {
+  color: red;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#ulContainer {
+  background: darkgray;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+#ulContainer div {
+  margin: 0.2em 1em;
+  background: grey;
+  padding: 0.2em;
+}
+
+#ulContainer div span {
+  background: black;
+}
+
+footer {
+  margin-top: 1em;
+}

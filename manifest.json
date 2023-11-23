@@ -1,0 +1,30 @@
+{
+  "name": "GitAutomatizer",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.0.0.1",
+  "description": "Automatize actions for the opened github repository if you're logged as owner repo",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+G"
+      }
+    }
+  }
+}
